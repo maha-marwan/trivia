@@ -1,0 +1,109 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #6a0dad; /* Purple */
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Theme colors */
+.button {
+  background-color: #6a0dad; /* Purple */
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #4a0072; /* Darker purple */
+}
+
+.input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #6a0dad;
+  border-radius: 5px;
+}
+
+.player-container, .join-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Options */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-button {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 2px solid #6a0dad;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.option-button:hover {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.option-button.selected {
+  background-color: #6a0dad;
+  color: white;
+}
+
+/* Leaderboard */
+.leaderboard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+}
+
+.leaderboard-item {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.submit-button {
+  background-color: gold;
+  color: #333;
+  font-weight: bold;
+}
